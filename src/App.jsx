@@ -2,7 +2,9 @@
 import './App.css'
 import Nav from "./Nav"
 import Hero from "./Hero"
-import Button from "./Button"
+import {Button} from "./Button"
+import Dashboard from './Dashboard'
+import Usercard from './Usercard'
 
 
 
@@ -13,8 +15,9 @@ function App() {
     <Nav />
     <Hero />
     <Button />
-
-    <div>Welcome to React Class</div> 
+    <Dashboard/>
+    <div className='text-3xl'>Welcome to React Class</div> 
+    <Usercard name="Mabas" age={20} />
     </>
   )
 }
