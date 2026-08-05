@@ -1,27 +1,20 @@
 
 import './App.css'
+import Nav from "./Nav"
+import Hero from "./Hero"
+import Button from "./Button"
 
 
-function Nav(){
-  return(
-    <>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Contact Us</li>
-        <li>Blog</li>
-      </ul>
-    </nav>
-    </>
-  )
-}
 
 function App() {
 
   return (
     <>
-     
+    <Nav />
+    <Hero />
+    <Button />
+
+    <div>Welcome to React Class</div> 
     </>
   )
 }
