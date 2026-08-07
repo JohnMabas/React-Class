@@ -3,12 +3,8 @@ import './App.css'
 import Nav from "./Nav"
 import Hero from "./Hero"
 import {Button} from "./Button"
-import Dashboard from './Dashboard'
 import Usercard from './Usercard'
 import Platform from './Platform'
-import CardB from './Card-B'
-import CardA from './Card-A'
-import CardWed3 from './Card-wed3'
 import img from "/src/assets/man1.png"
 
 
