@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <>
-      <h1>My Hero </h1>
+      <h1>Welcome </h1>
     </>
   );
 }

@@ -25,7 +25,7 @@ function Platform({ Track, image, Descrition }) {
   }
   if(isOpen){
     return (
-      <div className=" border border-amber-50 w-44 p-3 w-56 ">
+      <div className=" border border-amber-50 w-56 p-3  ">
         <div>
             <h1> {Track}</h1>
         <img className="w-40 m-auto" src={image} alt="man" />
