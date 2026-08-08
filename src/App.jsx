@@ -14,7 +14,7 @@ function App() {
       <div className="flex justify-center items-center gap-3">
         <Platform Track="Beginner" image={img} Descrition="loprhrhvbgiebvib" />
         <Platform Track="Wed 3" image={img} Descrition="loprhrhvbgiebvib" />
-        <Platform Track="Advanced" image={img} Descrition="lo" />
+        <Platform Track="Advanced" image={img} Descrition="Welcome to Advanced" />
       </div>
 
       {/* <Button /> */}
