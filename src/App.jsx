@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <Hero />
       <div className="flex justify-center items-center gap-3">
-        <Platform Track="Beginner" image={img} Descrition="loprhrhvbgiebvib" />
+        <Platform Track="Beginner" image={img} Descrition="Welcome to Beginner" />
         <Platform Track="Wed 3" image={img} Descrition="Welocome to Wed 3" />
         <Platform Track="Advanced" image={img} Descrition="Welcome to Advanced" />
       </div>
