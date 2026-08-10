@@ -9,13 +9,13 @@ function AboutCards() {
     {
       id: 2,
       name: "Hublot",
-      price: 200,
+      price: 300,
       discription: "the last Hublot available",
     },
     {
       id: 3,
       name: "Rolex",
-      price: 200,
+      price: 600,
       discription: "the last Rolex available",
     },
   ];
@@ -28,6 +28,8 @@ function AboutCards() {
         return(
             <div key={cart.id}>
             <h1 className="text-white">Name: {cart.name}</h1>
+            <p>Pice: {cart.price}</p>
+            <p></p>
 
         </div>
         )
