@@ -29,7 +29,7 @@ function AboutCards() {
             <div key={cart.id}>
             <h1 className="text-white">Name: {cart.name}</h1>
             <p>Pice: {cart.price}</p>
-            <p></p>
+            <p>Discription: {cart.discription}</p>
 
         </div>
         )
