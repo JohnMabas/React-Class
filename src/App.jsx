@@ -5,6 +5,7 @@ import { Button } from "./Button";
 import Usercard from "./Usercard";
 import Platform from "./Platform";
 import img from "/src/assets/man1.png";
+import AboutCards from "./AboutCards";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Platform Track="Wed 3" image={img} Descrition="Welocome to Wed 3" />
         <Platform Track="Advanced" image={img} Descrition="Welcome to Advanced" />
       </div>
+
+      <AboutCards />
 
       {/* <Button /> */}
       {/* <div className='text-3xl'>Welcome to React Class</div>  */}
