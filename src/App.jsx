@@ -6,6 +6,8 @@ import Usercard from "./Usercard";
 import Platform from "./Platform";
 import img from "/src/assets/man1.png";
 import AboutCards from "./AboutCards";
+import Content from "./Content";
+import Form from "./Form";
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
       </div>
 
       <AboutCards />
+
+      <Content />
+
+      <Form />
 
       {/* <Button /> */}
       {/* <div className='text-3xl'>Welcome to React Class</div>  */}
