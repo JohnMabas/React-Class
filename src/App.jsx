@@ -10,6 +10,14 @@ import Content from "./Content";
 import Form from "./Form";
 
 function App() {
+
+   const handleSubmit = e => {
+        e.preventDefault()
+        let clicked = e.target 
+        console.log(clicked)
+
+    }
+
   return (
     <>
       <Nav />
@@ -22,9 +30,9 @@ function App() {
 
       <AboutCards />
 
-      <Content />
+      {/* <Content /> */}
 
-      <Form />
+      <Form submit={(e)=>{handleSubmit(e)}}  />
 
       {/* <Button /> */}
       {/* <div className='text-3xl'>Welcome to React Class</div>  */}
