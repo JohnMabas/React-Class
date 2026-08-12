@@ -8,6 +8,7 @@ import img from "/src/assets/man1.png";
 import AboutCards from "./AboutCards";
 import Content from "./Content";
 import Form from "./Form";
+import Counter from "./Counter";
 
 function App() {
 
@@ -33,6 +34,8 @@ function App() {
       {/* <Content /> */}
 
       <Form submit={(e)=>{handleSubmit(e)}}  />
+
+        <Counter />
 
       {/* <Button /> */}
       {/* <div className='text-3xl'>Welcome to React Class</div>  */}
