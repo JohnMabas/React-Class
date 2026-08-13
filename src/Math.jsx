@@ -13,19 +13,19 @@ const Math = () => {
     setResult(num1 + num2)
   }
 
-  function Div() {
+  function Div(num1, num2) {
     console.log("Div");
-    return 44 / 55;
+    setResult(num1 + num2)
   }
 
-  function mod() {
+  function mod(num1, num2) {
     console.log("Div");
-    setMath(55 % 22);
+    setResult(num1 + num2)
   }
 
   function clear() {
     console.log("clear");
-    return 0;
+    setResult(0)
   }
   return (
     <div>
@@ -43,7 +43,7 @@ const Math = () => {
         <button
         className="border border-white p-1"
           onClick={() => {
-            sub();
+            sub(34,55);
           }}
         >
           sub
@@ -51,7 +51,7 @@ const Math = () => {
         <button
         className="border border-white p-1"
           onClick={() => {
-            Div();
+            Div(66,2);
           }}
         >
           Div
@@ -59,7 +59,7 @@ const Math = () => {
         <button
         className="border border-white p-1"
           onClick={() => {
-            mod();
+            mod(44,5);
           }}
         >
           mod
@@ -67,7 +67,7 @@ const Math = () => {
         <button
         className="border border-white p-1"
           onClick={() => {
-            clear();
+            clear(0);
           }}
         >
           clear
