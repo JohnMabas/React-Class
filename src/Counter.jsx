@@ -17,9 +17,9 @@ const Counter = () => {
   return (
     <div>
       <p>{count}</p>
-      <button onClick={increase}>Increase </button>
-      <button onClick={decrease}>Decrease </button>
-      <button onClick={reset}>Reset </button>
+      <button className="border border-b-white px-5" onClick={increase}>Increase </button>
+      <button className="border border-b-white px-5"   onClick={decrease}>Decrease </button>
+      <button className="border border-b-white px-5" onClick={reset}>Reset </button>
     </div>
   );
 };
