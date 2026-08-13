@@ -1,16 +1,16 @@
 import { useState } from "react";
 
 const Math = () => {
-  const [math, setMath] = useState(0);
+  const [result, setResult] = useState(0);
 
-  function add() {
+  function add(num1, num2) {
     console.log("Adding");
-    return 22 + 44;
+    setResult(num1 + num2);
   }
 
-  function sub() {
+  function sub(num1, num2) {
     console.log("Sub");
-    return 67 * 8;
+    setResult(num1 + num2)
   }
 
   function Div() {
@@ -30,12 +30,12 @@ const Math = () => {
   return (
     <div>
       <h1>Calculator</h1>
-      <p>{math}</p>
+      <p>Result: {result}</p>
       <div className="flex justify-center items-center gap-2">
         <button
           className="border border-white p-1"
           onClick={() => {
-            add();
+            add(3,5);
           }}
         >
           Add
