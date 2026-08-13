@@ -9,6 +9,7 @@ import AboutCards from "./AboutCards";
 import Content from "./Content";
 import Form from "./Form";
 import Counter from "./Counter";
+import Math from "./Math";
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
       <Form submit={(e)=>{handleSubmit(e)}}  />
 
         <Counter />
+        <Math />
 
       {/* <Button /> */}
       {/* <div className='text-3xl'>Welcome to React Class</div>  */}
