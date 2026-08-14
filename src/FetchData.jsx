@@ -22,7 +22,12 @@ const FetchData = () => {
     <>
    
     {
-       
+        users.map(user => {
+            return (<div key={user.id}>
+                <p className="text-black">{user.firstName}</p>
+
+            </div>)
+            console.log(user.age)
 
         })
     }
