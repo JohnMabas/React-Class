@@ -24,7 +24,8 @@ const FetchData = () => {
     {
         users.map(user => {
             return (<div key={user.id}>
-                <p className="text-black">{user.firstName}</p>
+                <p className="text-white">{user.firstName}</p>
+                <p className="text-white">{user.age}</p>
 
             </div>)
             console.log(user.age)

@@ -10,6 +10,7 @@ import Content from "./Content";
 import Form from "./Form";
 import Counter from "./Counter";
 import Math from "./Math";
+import FetchData from "./FetchData";
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
 
         <Counter />
         <Math />
+        <FetchData />
 
       {/* <Button /> */}
       {/* <div className='text-3xl'>Welcome to React Class</div>  */}
