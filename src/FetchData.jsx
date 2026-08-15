@@ -27,6 +27,8 @@ const FetchData = () => {
                 <p className="text-white">{user.firstName}</p>
                 <p className="text-white">{user.age}</p>
                 <p className="text-white">{user.gender}</p>
+                <p className="text-white">{user.ip}</p>
+                <p className="text-white">{user.image}</p>
 
             </div>)
             console.log(user.age)
